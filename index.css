@@ -116,3 +116,42 @@ select {
     padding: 20px;
     font-size: 0.8rem;
 }
+
+.breed-card-dynamic {
+    display: flex;
+    gap: 30px;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    align-items: flex-start;
+    animation: fadeIn 0.5s ease; /* Adds a smooth fade-in effect */
+}
+
+.breed-card-dynamic img {
+    width: 350px;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.info h2 {
+    margin-top: 0;
+    color: var(--warm-orange);
+    font-family: 'Poppins', sans-serif;
+}
+
+.info p {
+    margin-bottom: 15px;
+    color: var(--slate-grey);
+}
+
+.main-content {
+    border: none; 
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
