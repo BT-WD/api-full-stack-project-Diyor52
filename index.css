@@ -1,1 +1,118 @@
+:root {
+    --primary-cream: #FFF5E1;
+    --warm-orange: #FF9F43;
+    --slate-grey: #2D3436;
+    --heart-red: #FF7675;
+    --white: #FFFFFF;
+}
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--primary-cream);
+    color: var(--slate-grey);
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.6;
+}
+
+
+.navbar {
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 5%;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.logo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--warm-orange);
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--slate-grey);
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+.login-btn {
+    background: none;
+    border: 2px solid var(--slate-grey);
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.search-box {
+    background: var(--white);
+    padding: 20px 40px;
+    border-radius: 50px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+select {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin: 0 10px;
+}
+
+.action-btn {
+    background-color: var(--warm-orange);
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.main-content {
+    max-width: 1000px;
+    margin: 0 auto 100px auto;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed #ccc;
+    border-radius: 20px;
+}
+
+.static-placeholder {
+    color: #95a5a6;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.8rem;
+}
