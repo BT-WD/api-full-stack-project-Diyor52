@@ -15,7 +15,7 @@ body {
     background-color: var(--primary-cream);
     color: var(--slate-grey);
     font-family: 'Quicksand', sans-serif;
-    line-height: 1.6;
+    line-height: 1.5;
 }
 .navbar {
     background-color: var(--white);
