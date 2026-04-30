@@ -1,4 +1,4 @@
-const API_KEY = "live_qyGfJvEdNdIsjX1nQo0DIlEmBUwV1OST8KaBCMAuyHgxFL4qir6eBzB9AQ5pFr1a";
+const API_KEY = "live_nQyM3snl9IaMOBHRRqTreeSKjHCIjOyBkznjIApxR7ci4Ojhi4fOL2GCYPWCxK8r";
 const breedSelect = document.getElementById('breed-select');
 const dataContainer = document.getElementById('data-container');
 const actionBtn = document.querySelector('.action-btn');
